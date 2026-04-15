@@ -1,0 +1,4 @@
+@use "../../../../../../../../templates/default/070-components/UI-framework/Panel/ui-component_panel" with (
+  $make-legacy-blocks-into-panels: false,
+  $il-panel-style-boxed: true,
+);
