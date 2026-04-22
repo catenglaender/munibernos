@@ -77,7 +77,7 @@ $unibe-il-header-desc-font-size: $il-font-size-large;
 $unibe-il-header-desc-padding: $il-padding-medium-vertical 0;
 $unibe-il-media-HeaderInner-before-content: "\00a0";
 $unibe-il-Head-Action-display: none; // entfernt "Aktionen" Label bei Top Actions
-$unibe-il-Head-Action-glyph-color: $il-text-color; // fÃ¤rbt Glyph in Stageheader sichtbar ein
+$unibe-il-Head-Action-glyph-color:  $unibe-il-accent-color; // fÃ¤rbt Glyph in Stageheader sichtbar ein
 $unibe-il-headerinner-min-height: 120px;
 $unibe-il-header-image-width: 60px;
 $unibe-il-header-image-height: 60px;

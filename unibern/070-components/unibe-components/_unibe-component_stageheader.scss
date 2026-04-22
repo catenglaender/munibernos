@@ -5,7 +5,23 @@
 //## Stage Header
 // Content Page Header (Icon, Title, Description, Actions)
 
+@use "050-layout/layout_breakout-from-content-box" as l-breakout;
 
+// full-width banner header
+.il_HeaderContainer,
+.ilTabContainer {
+  background-color: $unibe-il-page-content-header-bg-color;
+}
+@include l-breakout.breakout-section(".il_HeaderContainer") {
+  .il_HeaderInner {
+    @include l-breakout.inner-boxed-section()
+  }
+}
+@include l-breakout.breakout-section(".ilTabContainer") {
+  #ilTab {
+    @include l-breakout.inner-boxed-section()
+  }
+}
 
 div.il_HeaderInner {
   padding-bottom: $il-padding-large-vertical;
@@ -79,13 +95,17 @@ div.ilHeaderAlert {
   display: $unibe-il-Head-Action-display;
 }
 
-.ilHeadAction a {
+.ilHeadAction a.glyph,
+.ilHeadAction .btn .caret::before {
   color: $unibe-il-Head-Action-glyph-color;
 }
+.ilHeadAction a.glyph:hover,
+.ilHeadAction .btn:hover .caret::before {
+   color: settings.$il-text-color;
+ }
 
 // Zwischenraum Dropzone und Tabs
 div.il_HeaderInner.media {
-  background-color: $unibe-il-page-content-header-bg-color;
   padding: $unibe-il-page-content-header-padding;
   border-radius: $unibe-il-page-content-header-border-radius;
 }
