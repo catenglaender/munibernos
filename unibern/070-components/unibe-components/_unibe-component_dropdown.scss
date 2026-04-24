@@ -16,9 +16,14 @@
 .dropdown button, .dropdown-toggle.btn-default {
   background-color: $unibe-il-dropdown-button-bg-color;
   color: $unibe-il-dropdown-button-color;
-  border: $unibe-il-dropdown-button-border;
   &:hover {
     background-color: $unibe-il-dropdown-button-bg-color-hover;
+  }
+}
+
+#mainspacekeeper {
+  .dropdown button, .dropdown-toggle.btn-default {
+    border: $unibe-il-dropdown-button-border;
   }
 }
 

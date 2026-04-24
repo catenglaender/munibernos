@@ -2,8 +2,12 @@
   $il-web-font-path: "../../../../assets/fonts/",
   $il-icon-font-path: "../../../../assets/fonts/bootstrap/",
   $il-background-images-path: "../../../../images/",
+  $il-standard-page-breadcrumbs-divider-color: red,
 );
 
 @use "070-components/unibe-components/unibe-component_header";
 @use "070-components/unibe-components/unibe-component_stageheader";
 @use "070-components/unibe-components/unibe-component_dropdown";
+@use "070-components/unibe-components/unibe-component_calendar";
+@use "070-components/unibe-components/unibe-component_button";
+@use "070-components/unibe-components/unibe-component_pageeditor";
