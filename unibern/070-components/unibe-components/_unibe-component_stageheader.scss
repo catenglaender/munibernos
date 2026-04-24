@@ -125,6 +125,15 @@ div.il_HeaderInner.media {
   border-bottom: $unibe-il-tab-border-bottom;
   border-radius: $unibe-il-tab-border-radius;
   box-shadow: $unibe-il-tab-box-shadow;
+  #ilLastTab .dropdown-toggle {
+    span.caret {
+      display: none;
+    }
+  }
+  li.open > a {
+    color: settings.$il-text-color;
+    background-color: $unibe-il-accent-color;
+  }
 }
 
 #ilTab > li.active > a, #ilTab > li.active > a:hover, #ilTab > li.active > a:focus {
@@ -135,6 +144,7 @@ div.il_HeaderInner.media {
 }
 
 #ilTab > li > a {
+  min-height: auto;
   color: $unibe-il-tab-color;
   padding-bottom: $unibe-il-nav-tab-padding-bottom;
 }
