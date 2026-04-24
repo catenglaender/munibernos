@@ -27,9 +27,11 @@ $unibe-il-link-nav-text-decoration: none;
 
 //## Header
 // Logo
-$unibe-il-logo-margin-left: $il-margin-large-horizontal;
-$unibe-il-standard-page-logo-width: 21px;
-$unibe-il-standard-page-logo-height: 21px;
+$unibe-il-logo-margin-left: $il-margin-xs-horizontal;
+$unibe-il-standard-page-logo-width: 31px;
+$unibe-il-standard-page-logo-height: 31px;
+$unibe-il-standard-page-logo-width-small: 21px;
+$unibe-il-standard-page-logo-height-small: 21px;
 
 // Pagetitle
 $unibe-il-pagetitle-padding-left: 2*$il-padding-large-horizontal;
@@ -41,7 +43,7 @@ $unibe-il-breadcrumb-hover-color: $unibe-il-link-nav-color-hover;
 $unibe-il-breadcrumb-hover-text-decoration: $unibe-il-link-nav-text-decoration;
 $unibe-breadcrumb-box-shadow: none;
 $unibe-il-breadcrumb-padding-left: $il-padding-large-horizontal;
-$unibe-il-breadcrumb-glyph-font-size: $il-font-size-xsmall;
+$unibe-il-breadcrumb-glyph-font-size: $il-font-size-small;
 $unibe-il-breadcrumb-glyph-color: $il-extended-color-9;
 $unibe-il-breadcrumb-font-weight: $il-font-weight-base;
 $unibe-il-breadcrumb-glyph-padding: $il-padding-medium-vertical $il-padding-small-horizontal;
