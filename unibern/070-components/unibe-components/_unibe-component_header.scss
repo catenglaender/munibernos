@@ -7,6 +7,11 @@
   height: $unibe-il-standard-page-logo-height;
   margin-left: $unibe-il-logo-margin-left;
 }
+.il-logo .visible-xs-block img.img-standard {
+  width: $unibe-il-standard-page-logo-width-small;
+  height: $unibe-il-standard-page-logo-height-small;
+  margin-left: $unibe-il-logo-margin-left;
+}
 
 .il-pagetitle {
   margin-top: $unibe-il-pagetitle-margin-top;
@@ -14,7 +19,7 @@
 }
 
 // Breadcrumb
-.breadcrumb_wrapper .breadcrumb {
+.breadcrumb-wrapper .breadcrumb {
   padding-left: $unibe-il-breadcrumb-padding-left;
   span.crumb a {
     color: $unibe-il-breadcrumb-color;
@@ -25,9 +30,9 @@
   }
 }
 
-.breadcrumb_wrapper .breadcrumb {
+.breadcrumb-wrapper .breadcrumb {
   font-weight: $unibe-il-breadcrumb-font-weight;
-  > span + span:before {
+  > span + span:after {
     font-size: $unibe-il-breadcrumb-glyph-font-size;
     color: $unibe-il-breadcrumb-glyph-color;
     padding: $unibe-il-breadcrumb-glyph-padding;
