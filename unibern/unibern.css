@@ -3651,7 +3651,7 @@ button .minimize, button .close {
 }
 
 .il-card {
-  padding: 0 0 16px 0;
+  padding: 0 0 7px 0;
   width: 100%;
   position: relative;
   background-color: white;
@@ -3700,7 +3700,7 @@ button .minimize, button .close {
   width: 100%;
 }
 .il-card .caption {
-  padding: 16px 11.997px;
+  padding: 7px 11.997px;
   overflow-wrap: break-word;
   word-break: break-word;
 }
@@ -3717,7 +3717,7 @@ button .minimize, button .close {
   padding: 0 11.997px;
 }
 .il-card .il-card-repository-head > div {
-  padding: 16px 11.997px;
+  padding: 7px 11.997px;
   float: left;
 }
 .il-card .il-card-repository-head .caret {
@@ -3732,7 +3732,7 @@ button .minimize, button .close {
 }
 .il-card .il-card-repository-head > div.il-card-repository-dropdown {
   float: right;
-  padding: 25px 11.997px;
+  padding: 9px 9.331px;
 }
 .il-card .il-card-repository-head > div.il-card-repository-dropdown > .dropdown > button {
   position: relative;
@@ -20603,6 +20603,65 @@ div.il_editarea_selected:hover > div.ilEditLabel {
 
 #ilContentContainer {
   margin: 0 14px 0 14px;
+}
+
+.il-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  border: none;
+}
+.il-card .il-card-repository-head {
+  order: 4;
+  height: 56.328px;
+}
+.il-card .il-card-repository-head > div.il-card-repository-dropdown > .dropdown > button {
+  border: none;
+}
+.il-card .il-card-repository-head > div.il-card-repository-dropdown > .dropdown > button:hover {
+  background-color: #dfd8df;
+}
+.il-card .il-card-repository-head .caret {
+  color: #000000;
+}
+.il-card .il-card-repository-head .icon {
+  filter: contrast(0) opacity(0.5);
+  height: 24px;
+  margin: 2px 0 0 0;
+}
+.il-card .il-card-repository-head > div {
+  padding: 10px 3px;
+}
+.il-card .il-card-image-container {
+  order: 1;
+}
+.il-card .il-card-image-container img.img-responsive, .il-card .il-card-image-container img.img-standard {
+  border-radius: 3px 3px 0 0;
+}
+.il-card .card-no-highlight, .il-card .card-highlight {
+  order: 2;
+}
+.il-card .caption {
+  order: 3;
+}
+.il-card .caption dl {
+  margin-bottom: 7px;
+}
+.il-card .card-title {
+  font-size: 1.241rem;
+  margin-top: 7px;
+}
+.il-card .card-title .btn-link, .il-card .card-title a {
+  color: #000000;
+}
+.il-card .card-title > .btn-link:hover, .il-card .card-title a:hover {
+  text-decoration: none;
+  color: #5D6089;
+}
+
+.il-deck .il-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.15s ease-in-out;
 }
 
 /*# sourceMappingURL=unibern.css.map */
