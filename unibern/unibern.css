@@ -5186,7 +5186,7 @@ grid-based layout
   display: grid;
   grid-gap: 0px;
   grid-template-columns: auto 1fr;
-  grid-template-rows: auto 90px 1fr;
+  grid-template-rows: auto 60px 1fr;
   height: 100%;
   overflow: hidden;
   width: 100%;
@@ -5250,7 +5250,7 @@ div.il-system-infos {
   background: white;
   display: flex;
   flex-direction: row;
-  height: 90px;
+  height: 60px;
   padding: 0 26.66px;
   position: fixed;
   width: 100%;
@@ -6102,7 +6102,6 @@ a[aria-disabled].il-link.link-bulky:hover {
   filter: invert(50%);
   font-family: "il-icons";
   font-size: 1.0625rem;
-  margin-right: 11.997px;
   position: relative;
 }
 .il-maincontrols-metabar .input-group {
@@ -6123,8 +6122,8 @@ a[aria-disabled].il-link.link-bulky:hover {
 .il-maincontrols-metabar > li > .btn.btn-bulky, .il-maincontrols-metabar > li > a.il-link.link-bulky {
   border: none;
   background-color: transparent;
-  height: 90px;
-  min-width: 90px;
+  height: 60px;
+  min-width: 60px;
 }
 .il-maincontrols-metabar > li > .btn.btn-bulky:focus-visible, .il-maincontrols-metabar > li > a.il-link.link-bulky:focus-visible {
   outline: none;
@@ -6185,7 +6184,7 @@ a[aria-disabled].il-link.link-bulky:hover {
   max-height: 90vh;
   overflow-y: auto;
   right: 0;
-  top: 90px;
+  top: 60px;
 }
 .il-metabar-slates .il-maincontrols-slate {
   min-width: 500px;
@@ -10308,7 +10307,7 @@ tr.c-table-data__row.c-table-data__row--drag-settle {
 .il-toast-container {
   position: fixed;
   z-index: 19999;
-  top: 90px;
+  top: 60px;
   right: 0;
   width: 300px;
 }
@@ -19747,19 +19746,18 @@ div.Access {
 /* In 070-components > UI-framework > _ui-component_mainbar.scss sind weitere Anpassungen direkt zu Tools-Buttons vorgenommen worden */
 /* Alert Header */
 .il-logo .hidden-xs img.img-standard {
-  width: 31px;
-  height: 31px;
+  width: 28px;
+  height: 28px;
   margin-left: 9.331px;
 }
 
 .il-logo .visible-xs-block img.img-standard {
-  width: 21px;
-  height: 21px;
+  width: 19px;
+  height: 19px;
   margin-left: 9.331px;
 }
 
 .il-pagetitle {
-  margin-top: 11.997px;
   padding-left: 53.32px;
 }
 
