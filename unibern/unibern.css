@@ -18884,7 +18884,8 @@ a.ilMediaLightboxClose:hover {
   margin: 0;
   font-size: 1rem;
   line-height: 1.333;
-  padding: 7px 11.997px;
+  padding: 9px 21.328px;
+  margin-right: 9.331px;
   border-bottom: 2px solid transparent;
   border-radius: 3px 3px 0 0;
 }

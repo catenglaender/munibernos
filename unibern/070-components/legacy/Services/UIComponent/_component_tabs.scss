@@ -1,0 +1,5 @@
+@use "050-layout/basics" as l;
+@use "../../../../../templates/default/070-components/legacy/Services/UIComponent/component_tabs" with (
+  $nav-tabs-padding: l.$il-padding-small-vertical l.$il-padding-medium-horizontal,
+  $nav-tabs-margin-right: l.$il-margin-xs-horizontal,
+);
