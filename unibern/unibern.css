@@ -3955,7 +3955,8 @@ button .minimize, button .close {
 }
 
 .badge {
-  min-width: 10px;
+  min-width: 2ch;
+  min-height: 2ch;
   font-size: 0.75rem;
   margin-left: -4px;
   text-align: center;
@@ -6110,14 +6111,8 @@ a[aria-disabled].il-link.link-bulky:hover {
 .il-maincontrols-metabar form#mm_search_form {
   padding: 20px;
 }
-.il-maincontrols-metabar .badge {
-  position: absolute;
-}
 .il-maincontrols-metabar .btn, .il-maincontrols-metabar .il-link {
   position: relative;
-}
-.il-maincontrols-metabar .il-counter {
-  font-size: 1.4375rem;
 }
 .il-maincontrols-metabar > li > .btn.btn-bulky, .il-maincontrols-metabar > li > a.il-link.link-bulky {
   border: none;
@@ -6163,16 +6158,6 @@ a[aria-disabled].il-link.link-bulky:hover {
   }
   .il-maincontrols-metabar .il-metabar-more-button .icon.custom img {
     margin-right: 11.997px;
-  }
-  .il-maincontrols-metabar .il-metabar-more-button .icon.custom .badge {
-    position: absolute;
-    margin-right: 9.331px;
-  }
-  .il-maincontrols-metabar .il-metabar-more-button .icon.custom .badge.il-counter-novelty {
-    margin-top: -16px;
-  }
-  .il-maincontrols-metabar .il-metabar-more-button .icon.custom .badge.il-counter-status {
-    margin-top: 38px;
   }
 }
 
@@ -20169,6 +20154,25 @@ div.il_editarea_selected:hover > div.ilEditLabel {
 .il-deck .il-card:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.15s ease-in-out;
+}
+
+.jstree.jstree-default a {
+  color: #000000 !important;
+}
+.jstree.jstree-default a:hover {
+  color: #5D6089 !important;
+}
+
+.jstree.jstree-default .jstree-node > i {
+  background: url("images/nav/jstree.svg") no-repeat;
+}
+
+.jstree.jstree-default .jstree-closed > i {
+  background-position: 10px 0 !important;
+}
+
+.jstree.jstree-default .jstree-open > i {
+  background-position: -10px 0 !important;
 }
 
 /*# sourceMappingURL=unibern.css.map */
