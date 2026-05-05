@@ -18949,12 +18949,12 @@ a.ilMediaLightboxClose:hover {
 
 /* Sub Tabs */
 #ilSubTab {
-  padding: 7px 0;
+  padding-bottom: 20px;
   margin: 0;
 }
 #ilSubTab > li:first-child > a,
 #ilSubTab > li:first-child > .c-tooltip__container > a {
-  padding-left: 9.331px;
+  padding-left: 0;
 }
 #ilSubTab > li {
   float: left;
@@ -19944,7 +19944,7 @@ div.il_HeaderInner.media {
 
 #ilTab > li.active > a, #ilTab > li.active > a:hover, #ilTab > li.active > a:focus {
   background-color: white;
-  border-bottom: 0px solid #FF4A59;
+  border-bottom: 2px solid white;
   color: #5D6089;
   border-radius: 3px 3px 0 0;
 }
@@ -19957,13 +19957,13 @@ div.il_HeaderInner.media {
 
 #ilTab > li > a:hover, .nav > li > a:focus {
   background-color: white;
-  border-bottom: 0px solid #FF4A59;
+  border-bottom: 2px solid white;
   color: #000000;
   border-radius: 3px 3px 0 0;
 }
 
 #ilSubTab {
-  padding: 0 0 20px 21.328px;
+  padding: 0 0 20px 0;
 }
 
 #ilSubTab > li > a {
@@ -20091,10 +20091,6 @@ div.il_editarea_selected:hover > div.ilEditLabel {
 
 .ilc_list_u_BulletedList {
   padding: 0px 16px 0px 21.328px;
-}
-
-#ilContentContainer {
-  margin: 0 14px 0 14px;
 }
 
 .il-card {

@@ -115,7 +115,7 @@ $unibe-il-transition-base: all .15s ease-in-out;
 //## Tabs
 $unibe-il-tab-color: white;
 $unibe-il-tab-border-bottom: none;
-$unibe-il-tab-active-border-bottom: 0px solid $il-extended-color-9;
+$unibe-il-tab-active-border-bottom: 2px solid white;
 $unibe-il-tab-active-background-color: white;
 $unibe-il-tab-active-color: $unibe-il-link-nav-color-hover;
 $unibe-il-tab-active-border-radius: $il-border-radius-base $il-border-radius-base 0 0;
@@ -136,7 +136,7 @@ $unibe-il-subtab-active-color: $il-link-color;
 $unibe-subtab-active-text-decoration: $unibe-il-link-nav-text-decoration;
 $unibe-il-subtab-font-size: $il-font-size-base;
 $unibe-il-subtab-border-bottom: none;
-$unibe-il-subtab-padding: 0 0 $il-padding-large-vertical $il-padding-medium-horizontal;
+$unibe-il-subtab-padding: 0 0 $il-padding-large-vertical 0;
 
 //## Toolbar
 $unibe-il-c-toolbar-bg-color: transparent;
