@@ -1,0 +1,4 @@
+@use "010-settings" as s;
+@use "../../../../../templates/default/070-components/UI-framework/MainControls/ui-component_mainbar" with (
+  $il-mainbar-btn-border-indicator-active: 4px solid s.$il-extended-color-9,
+);
