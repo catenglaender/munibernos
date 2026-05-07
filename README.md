@@ -2,7 +2,7 @@
 
 ## Set-Up
 
-1. This repository needs to be cloned into a Monoceros ILIAS 10 to `Customizing/skin/`.
+1. This repository needs to be cloned into a Monoceros ILIAS 10 to `public/Customizing/skin/`.
 2. In ILIAS, go to `Administration > Layout and Navigation > Layout` and make the `Uni Bern / Uni Bern` skin the default. In the Delos row on this page, you can use the Action dropdown to switch all users currently using the Delos skin to `Uni Bern / Uni Bern`.
 
 ## Compiling
