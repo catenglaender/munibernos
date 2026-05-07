@@ -2098,6 +2098,7 @@ input[type=text],
 input[type=submit],
 input[type=datetime-local],
 input[type=url],
+input[type=time],
 input[type=number],
 input[type=password],
 select {
@@ -5114,8 +5115,11 @@ hr.il-divider-with-label {
 .c-form [data-il-ui-component=textarea-field-input] > label,
 .c-form [data-il-ui-component=markdown-field-input] > label,
 .c-form [data-il-ui-component=select-field-input] > label,
+.c-form [data-il-ui-component=date-time-field-input] > label,
+.c-form [data-il-ui-component=duration-field-input] > label,
+.c-form [data-il-ui-component=link-field-input] > label,
 .c-form [data-il-ui-component=url-field-input] > label {
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 .il-std-item-container:not(:last-child) {
